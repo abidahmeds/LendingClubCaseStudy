@@ -31,7 +31,8 @@ Exploratory Analysis would ensure we get understanding the past behavior , the p
 
 ## Important Univariate and Multivariate Analysis
 
-[Lending Decision Factors](https://github.com/abidahmeds/LendingClubCaseStudy/charts/factors1.png)
+[Lending Decision Factors](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/factors1.png)
+[Lending Decision Factors2](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/factors2.png)
 - library - version 1.0
 - library - version 2.0
 - library - version 3.0
