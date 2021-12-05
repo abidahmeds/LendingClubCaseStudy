@@ -1,12 +1,14 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study.
+> This project is about EDA Analysis on Lending Club data for past few years , covering data about their credit loan taken and other financial background about each member of the club.
+Exploratory Analysis would ensure we get understanding the past behavior , the patterns , the financial evaluation score and ratios to take better decision on the new loans being offered. 
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Problem Statement and Analysis approach
+* Factors for Risk Analysis of Credit Lending
+* Important Univariate and Multivariate Analysis
+* Final Summary
+* Referenecs
 
 <!-- You can include any other section that is pertinent to your problem -->
 
