@@ -47,17 +47,33 @@ Exploratory Analysis would ensure we get understanding the past behavior , the p
 > This is how Credit Score was calculated  there could be more parameters used but this is 1st version based on information gathered.
 ![Credit Score Calculation formula](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/CreditScoreCalculationFormula.png)
 
+### Some Important Charts
+> please refer to the slide for the more information and all analysis charts. Few charts are inferences are below.
+![Credit Score Analysis](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/creditScoreAnalysis.png)
+![Credit Score Bucket Analysis ](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/creditScoreanalysis2.png)
+![Credit Uitlization Ratio Vs Credit Score and DTI ](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/creditScoreRatioAnalysis.png)
 
+#### Inferences
+- Credit Score Median is around 530-560 points for all and charged off loans , but there is higher percentage of 300-500 bucket Credit Scores in ChargedOff loan category 
+- Low Credit Score points bucket is high for charged off loans and although it cannot be said if a 500-600 or 700-100 credit Score will not lead to failed loan , but low credit Score has more probability of chargedOff loan
+- Credit Utilization ratio has an impact to loan status  the higher the ratio , there are more cases of ChargedOff loans.
+- Credit utilization Ratio has a direct relationship to Credit Score as we know from our own calculation , it also means DTI has no so direct relationship to credit Score, it may be important to see DTI for credit funding, but it has not much effect to Credit Score.
+ 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Final Summary
+- Credit Score and Credit utilization Ration have an important role and decision making factor to grant loans
+- Long term and loans for debt consolidations have a skew towards failure chances
+- High Loan Interest Rates also have an impactful factor for loan success
+- Certain states and zip codes in them have a considerable factor to decide on loan grant , may be better to watch out more on them or understand why is the case? 
+- Although Verification is important , it is no guarantee that loan will succeed if all is well in verification
+- Higher Annual Income bucket is important to consider especially during recoveries
 
+## References
+-  https://www.myfico.com/credit-education/whats-in-your-credit-score
+-  https://www.cnbc.com/select/this-is-the-most-important-factor-that-determines-your-credit-score/ 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@abidahmeds] - feel free to contact me!
 
 
 <!-- Optional -->
