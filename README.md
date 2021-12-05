@@ -12,7 +12,8 @@ Exploratory Analysis would ensure we get understanding the past behavior , the p
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
+## Problem Statement and Analysis Approach
+> To Analyze the Lending club data set with all the information on loan given last few years and understand how some variable impacts or not towards loan success to have a loan decision made for new loans . It is important to understand the parameters which should be considered in taking loan approval decision and if some actions can be taken to secure loan customer.
 - Provide general information about your project here.
 - What is the background of your project?
 - What is the business probem that your project is trying to solve?
