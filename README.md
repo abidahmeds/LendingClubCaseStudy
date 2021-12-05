@@ -10,27 +10,28 @@ Exploratory Analysis would ensure we get understanding the past behavior , the p
 * Final Summary
 * Referenecs
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## Problem Statement and Analysis Approach
 > To Analyze the Lending club data set with all the information on loan given last few years and understand how some variable impacts or not towards loan success to have a loan decision made for new loans . It is important to understand the parameters which should be considered in taking loan approval decision and if some actions can be taken to secure loan customer.
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Analysis approach
+- Understand credit funding parameters and factors affecting same through public knowledge and apply same on data set.
+- Use EDA principles to analyse the data set 
+- Clean , remove, rename and derive parameters ( columns )
+- Use Data visualization methods to understand univariate and Bi variate patterns 
+- Describe inferences for parameters impacting credit funding decision.
 
 
-## Technologies Used
+## Factors for Risk Analysis of Credit Lending
+- 5 C of Credit – Character , Capacity, Collateral , Capital , Conditions 
+- Credit score factors : Payment history-35% , Amounts owned -30%  , Credit history length (15%) , Credit mix(10%), New credits opened (10%).
+- Credit utilization ratio = total revolving credit being used/  total of all revolving credit limits. Using more than 30% of your available credit is not good.
+- Credit mix : car loan  student loan , credit card, mortgage and other credit prods , diversified mix and handling helps credit score.
+- The longer the credit history , the higher the credit score.
+- Number of hard enquiries lenders make towards borrower. Too much requests made in short time
+
+## Important Univariate and Multivariate Analysis
+
+![alt text](https://github.com/abidahmeds/LendingClubCaseStudy/charts/factors1.png)
 - library - version 1.0
 - library - version 2.0
 - library - version 3.0
