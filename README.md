@@ -30,14 +30,24 @@ Exploratory Analysis would ensure we get understanding the past behavior , the p
 - Number of hard enquiries lenders make towards borrower. Too much requests made in short time
 
 ## Important Univariate and Multivariate Analysis
+### For detail analysis report , please refer to the Slide lendingClubCaseStudy.pdf in the attached directories.
 
+> The following factors were considered for Analysis and also some derivative metrices were used to arrive at the analysis.
 ![Lending Decision Factors](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/factors1.png)
 ![Lending Decision Factors2](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/factors2.png)
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+### Business Driven Derived Metrices and other varaibles.
+> For the purpose of Credit risk analysis , Credit Score or FICO score is to be calculated and also some other varaibles were derived out of given data columns.
+- Since there is no Credit score given in Dataset , it would probably be a biz driven derived metric. 
+- Payment history ( 35% of score ) = fx  { chargeoff_within_12_mths,delinq_2yrs, pub_rec , pub_rec_bankruptcies }
+- Amounts owed ( 30% of Score) =  fx{ dti , revol_util , revol_bal (credit_utilization_ratio) ,   }
+- Credit History Length (15% of Score) = fx{ earliest_cr_line , loandurationmonths }
+- Credit Mix ( 10% Score ) = fx{opencreditlines}
+- New Credits Opened (10% Score) = fx{inq_last_6mths }
+> This is how Credit Score was calculated  there could be more parameters used but this is 1st version based on information gathered.
+![Credit Score Calculation formula](https://github.com/abidahmeds/LendingClubCaseStudy/blob/master/charts/CreditScoreCalculationFormula.png)
+
+
 
 ## Acknowledgements
 Give credit here.
